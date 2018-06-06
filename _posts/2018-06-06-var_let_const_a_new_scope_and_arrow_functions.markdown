@@ -1,14 +1,14 @@
 ---
 layout: post
 title:      "var, let, const, a new scope....and arrow functions"
-date:       2018-06-06 17:19:39 +0000
+date:       2018-06-06 13:19:40 -0400
 permalink:  var_let_const_a_new_scope_and_arrow_functions
 ---
 
 
 Prior to Flatiron i had attempted to learn some Javascript on my own, but this was the ES5 days, before **var** was a dirty word and before arrow functions were all the rave. So upon introductions to let and const, i was specifically told **DO NOT USE VAR**. Of course, i avoided var like the plague, but never really looked too deeply as to the *why*, and the reasons go much further into how Javascript interprets variable declarations made by these keywords.
 
-If you're on the Javascript track, then you already know how Javascript works. It runs through our code once, combing the code for declarations within the variables scope and allocates memory for that variable. This is important, as it doesnt alter or literally move the code, simply sets its default value to *undefined*. It is these declarations that are then hoisted. One thing to take note of is this is true **only** for declarations, not initializations. Now, this is where our three amigos, var, let and const come in. 
+If you're on the Javascript track, then you already know how Javascript works. It runs through our code once, combing the code for declarations within the variables scope and allocates memory for that variable. This is important, especially with var, as it doesnt alter or literally move the code, simply sets its default value to *undefined*. It is these declarations that are then hoisted. One thing to take note of is this is true **only** for declarations, not initializations. Now, this is where our three amigos, var, let and const come in. 
 
 ![](https://media.giphy.com/media/sY1yvrxROgCM8/giphy.gif)
 
