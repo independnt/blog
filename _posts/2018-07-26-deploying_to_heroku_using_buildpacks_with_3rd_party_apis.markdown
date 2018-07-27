@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Deploying to Heroku using buildpacks with 3rd Party API's"
-date:       2018-07-26 21:31:08 +0000
+date:       2018-07-26 17:31:08 -0400
 permalink:  deploying_to_heroku_using_buildpacks_with_3rd_party_apis
 ---
 
