@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "REST in peace?"
-date:       2018-08-21 15:06:25 +0000
+date:       2018-08-21 11:06:26 -0400
 permalink:  rest_in_peace
 ---
 
@@ -18,11 +18,11 @@ Honestly, it seems that vs conventional REST, there's a lot more setup involved 
 
 ```
 query getDogs {
-     dogs {
-		      name
-					breed
-					age
-		 }
+ dogs {
+	name
+	breed
+	age
+ }
 }
 ```
 
@@ -34,10 +34,10 @@ Graphql also allows for queries using arguments, say you want a very specific Do
 
 ```
 query myDog{
-     dogs(name: "fido"){
-		      breed
-					favorite-food
-		 }
+ dogs(name: "fido"){
+  breed
+  favorite-food
+ }
 }
 ```
 
@@ -45,10 +45,10 @@ This query would then return to us the dog who's name matches the argument provi
 
 ```
 query BreedDogs($breed: Breed){
-     dogs(breed: $breed){
-		      name
-					favorite-food
-		 }
+ dogs(breed: $breed){
+	name
+	favorite-food
+ }
 }
 ```
 
