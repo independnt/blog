@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Learning more about Sass"
-date:       2018-08-30 22:42:39 +0000
+date:       2018-08-30 18:42:40 -0400
 permalink:  learning_more_about_sass
 ---
 
