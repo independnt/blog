@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Ready? Sets. Stacks."
-date:       2018-09-07 17:34:26 +0000
+date:       2018-09-07 13:34:26 -0400
 permalink:  ready_sets_stacks
 ---
 
